@@ -1,0 +1,528 @@
+<html>
+<head>
+<title> BAZA ASK </title>
+<style>
+html{
+    background: #ccffff;
+}
+.correct{
+    background: #66ff99;
+} 
+ol{ 
+}
+</style>
+</head>
+<body>
+<p>1.	Czy $sp w MIPS to:
+<ul><p>	(a) stop pointer - wskaŸnik zatrzymania programu
+<p>	(b) super position - tryb pracy procesora, pozwalaj¹cy na zwiêkszenie jego szybkoœci
+<p><a class="correct">	(c) stack pointer - rejestr ze wskaŸnikiem pocz¹tku stosu
+</a><p>	(d) stop position - warunek stopu aplikacji
+<p></ul><p><p>2.	Ile argumentów ma komenda sub?
+<ul><p>	(a) cztery (trzy rejestry wejœciowe do odejmowania, jeden rejestr docelowy do wyniku)
+<p>	(b) co najmniej dwa (co najmniej jeden wejœciowy, jeden rejestr docelowy do wyniku)
+<p><a class="correct">	(c) trzy (dwa rejestry wejœciowe do odejmowania, jeden rejestr docelowy do wyniku)
+</a><p>	(d) piêæ (cztery rejestry wejœciowe do odejmowania, jeden rejestr docelowy do wyniku)
+<p></ul><p><p>3.	Do jakiej klasy wedle taksonomii Flynna mo¿na zaliczyæ GPU?
+<ul><p>	(a) MISD
+<p>	(b) SISD
+<p><a class="correct">	(c) SIMD
+</a><p>	(d) MIMD
+<p></ul><p><p>4.	Architektura RISC w porównaniu z architektur¹ CISC (np. MIPS vs Intel x86-64):
+<ul><p><a class="correct">	(a) jest czêœciej wykorzystywana w urz¹dzeniach mobilnych (telefony, tablety itp.)
+</a><p>	(b) jest star¹ i ju¿ niewykorzystywan¹ architektur¹
+<p>	(c) ma wiêcej bardziej z³o¿onych instrukcji zmiennej d³ugoœci
+<p>	(d) jest mniej bezpieczna przez to jak stworzono ISA
+<p></ul><p><p>5.	Instrukcja w architekturze MIPS:
+<ul><p>	(a) mo¿e mieæ zmienn¹ d³ugoœæ
+<p><a class="correct">	(b) ma zawsze 32 bity d³ugoœci
+</a><p>	(c) zawsze ma odpowiednik o tej samej nazwie w architekturze CISC
+<p>	(d) jest zabezpieczona przed nieuprawnionym wykonaniem przez GU
+<p></ul><p><p>6.	Do czego s³u¿y instrukcja lw?
+<ul><p><a class="correct">	(a) ³aduje s³owo z pamiêci do rejestru
+</a><p>	(b) przenosi s³owo pomiêdzy komórkami pamiêci
+<p>	(c) przenosi s³owo pomiêdzy rejestrami
+<p>	(d) zapisuje s³owo z rejestru do pamiêci
+<p></ul><p><p>7.	Czym jest pipelining / potokowanie?
+<ul><p>	(a) przesy³anie danych pomiêdzy rejestrami w celu optymalizacji wydajnoœci
+<p>	(b) specjalne wejœcie procesora dla potoku danych
+<p>	(c) zabezpieczenie przed nadpisaniem wra¿liwych obszarów pamiêci systemu operacyjnego
+<p><a class="correct">	(d) wykonywanie kilku instrukcji jednoczeœnie przez procesor
+</a><p></ul><p><p>8.	Instrukcja w architekturze MIPS:
+<ul><p><a class="correct">	(a) nie zawsze jest zaimplementowana sprzêtowo
+</a><p>	(b) nigdy nie pokrywa siê z ISA CISC
+<p>	(c) jest zmiennej d³ugoœci od 16 do 64 bitów
+<p>	(d) MIPS nie ma instrukcji
+<p></ul><p><p>9.	D³ugoœæ s³owa w architekturze MIPS to:
+<ul><p><a class="correct">	(a) 32 bity
+</a><p>	(b) 64 bity
+<p>	(c) 16 bitów
+<p>	(d) 8 bitów
+<p></ul><p><p>10.	Jaka jest pozytywna cecha architektury Harvard?
+<ul><p>	(a) mo¿liwoœæ autodiagnozy uszkodzeñ i w³¹czania obwodów zapasowych
+<p>	(b) dane duplikowane s¹ w wielu obszarach pamiêci, przez co mo¿na szybciej je znaleŸæ
+<p>	(c) istnieje wiele szyn danych od procesora do pamiêci
+<p><a class="correct">	(d) dane i instrukcje zajmuj¹ roz³aczne obszary systemu komputerowego - zmniejszone ryzyko wykonania nieuprawnionej intrukcji
+</a><p></ul><p><p>11.	W jednej lini asemblera MIPS mo¿na:
+<ul><p>	(a) napisaæ wiêcej ni¿ jedn¹ instrukcjê
+<p>	(b) podaæ wprost kod maszynowy instrukcji (ci¹g zer i jedynek)
+<p><a class="correct">	(c) zadeklarowaæ dane, a póŸniej umieœciæ komentarz
+</a><p>	(d) napisaæ najpierw komentarz, póŸniej instrukcjê
+<p></ul><p><p>12.	Czym s¹ rejestry ogólnego preznaczenia (GPR - general purpose registers)?
+<ul><p>	(a) rejestrem dostêpnych wejœæ i wyjœæ ogólnego przeznaczenia (I/O)
+<p>	(b) rejestrem operacji dostêpnych w danej architekturze
+<p>	(c) wykazem dostêpnych Ÿróde³ pamiêci RAM
+<p><a class="correct">	(d) nabli¿szym procesora miejscem przechowywania danych
+</a><p></ul><p><p>13.	Czy mo¿liwe jest zaimplementowanie pêtli w asemblerze MIPS?
+<ul><p><a class="correct">	(a) tak, kombinacj¹ kilku instrukcji
+</a><p>	(b) tak, instrukcj¹ for
+<p>	(c) nie ma takiej mo¿liwoœci, konieczny jest jêzyk wysokiego poziomu
+<p>	(d) tak, instrukcj¹ while
+<p></ul><p><p>14.	Jaka klauzula w asemblerze MIPS rozpoczyna deklaracjê danych?
+<ul><p><a class="correct">	(a) .data
+</a><p>	(b) .var
+<p>	(c) .declare
+<p>	(d) .text
+<p></ul><p><p>15.	Jaka klauzula w asemblerze MIPS rozpoczyna kod programu (instrukcji)?
+<ul><p>	(a) .data
+<p>	(b) .var
+<p>	(c) .declare
+<p><a class="correct">	(d) .text
+</a><p></ul><p><p>16.	Czy dana instrukcja MIPS ma poprawn¹ sk³adniê: lw 4($t1)?
+<ul><p>	(a) nie, poniewa¿ w MIPS nie ma instrukcji lw
+<p>	(b) tak
+<p>	(c) nie, poniewa¿ 4 powinno byæ podzielne bez reszty przez 8 (d³ugoœæ s³owa w MIPS wyra¿ana jest w bajtach)
+<p><a class="correct">	(d) nie, poniewa¿ instrukcji lw jest potrzebny jeszcze jeden argument
+</a><p></ul><p><p>17.	Czy dana instrukcja MIPS ma poprawn¹ sk³adniê: lw $t0, 4($t1)?
+<ul><p>	(a) nie, poniewa¿ w MIPS nie ma instrukcji lw
+<p><a class="correct">	(b) tak
+</a><p>	(c) nie, poniewa¿ 4 powinno byæ podzielne bez reszty przez 8 (d³ugoœæ s³owa w MIPS wyra¿ana jest w bajtach)
+<p>	(d) nie, poniewa¿ instrukcji lw jest potrzebny jeszcze jeden argument
+<p></ul><p><p>18.	Które dane zostan¹ utracone po ponownym uruchomieniu komputera?
+<ul><p>	(a) na dysku twardym
+<p>	(b) na dysku SSD
+<p>	(c) w napêdzie taœmowym
+<p><a class="correct">	(d) w rejestrach
+</a><p></ul><p><p>19.	Czym jest rejestr $pc w MIPS?
+<ul><p><a class="correct">	(a) jest to rejestr wskazuj¹cy gdzie w pamiêci procesor bêdzie szuka³ nastêpnej instrukcji
+</a><p>	(b) jest to rejestr wskazuj¹cy na wersjê (commit) programu uruchamianego na CPU
+<p>	(c) jest to poœredni rejestr wykorzystywany przy przekazywaniu wartoœci do rejestru
+<p>	(d) jest to rejestr pozostawiony ze wzglêdów kompatybilnoœciowych, obecnie nieu¿ywany
+<p></ul><p><p>20.	Co znajduje siê na szczycie hierarchii pamiêci?
+<ul><p>	(a) cache procesora
+<p>	(b) napêd taœmowy
+<p><a class="correct">	(c) rejestry procesora
+</a><p>	(d) pamiêæ RAM
+<p></ul><p><p>21.	Jaka wartoœæ znajdzie siê w rejestrze $0 po wykonaniu add $0, $1, $2
+<ul><p><a class="correct">	(a) zero
+</a><p>	(b) nie wiadomo, bo nie znamy wartoœci w rejestrach $1 i $2
+<p>	(c) instrukcja ma nieprawid³ow¹ sk³adniê, powinna mieæ cztery argumenty
+<p>	(d) wartoœæ w rejestrze $0 nie zmieni siê, zmieni siê wartoœæ w $2 (bêdzie sum¹ $0 i $1)
+<p></ul><p><p>22.	Która z poni¿szych architektur zak³ada wspóln¹ pamiêæ dla instrukcji i danych?
+<ul><p>	(a) architektura £ukasiewicza
+<p>	(b) architektura Stanford
+<p><a class="correct">	(c) architektura Princeton (von Neumann)
+</a><p>	(d) architektura Harvard
+<p></ul><p><p>23.	Czego NIE definiuje ISA (Instruction Set Architecture)?
+<ul><p>	(a) zbioru dostêpnych rejestrów
+<p>	(b) organizacji pamiêci
+<p>	(c) wyboru instrukcji
+<p><a class="correct">	(d) modeli dostêpnych procesorów
+</a><p></ul><p><p>24.	Instrukcje I-type w MIPS:
+<ul><p>	(a) zajmuj¹ siê obs³ug¹ przerwañ I/O (interrupts)
+<p>	(b) obs³uguj¹ szybkie indeksowanie (indexing)
+<p>	(c) nie wystêpuj¹, s¹ tylko w CISC
+<p><a class="correct">	(d) pracuj¹ na wartoœciach (immediate)
+</a><p></ul><p><p>25.	Jaki jest rozmiar branch delay slot w MIPS?
+<ul><p><a class="correct">	(a) jedna instrukcja
+</a><p>	(b) dwie instrukcje
+<p>	(c) trzy instrukcje lub wiêcej
+<p>	(d) MIPS nie ma branch delay slot
+<p></ul><p><p>26.	Asembler MIPS pozwala na:
+<ul><p><a class="correct">	(a) ³adowanie s³ów z pamiêci do rejestrów
+</a><p>	(b) umieszczenie w jednej instrukcji addi wiêcej ni¿ jednej wartoœci immediate
+<p>	(c) zmianê kolejnoœci podawania rejestrów Ÿród³owych i docelowych w instrukcji
+<p>	(d) ³adowanie wielokrotnoœci s³ów do rejestrów GPR
+<p></ul><p><p>27.	Który z tych uk³adów najszybciej bêdzie wykonywa³ jedno konkretne zadanie?
+<ul><p>	(a) CPU w architekturze RISC
+<p>	(b) CPU w architekturze CISC
+<p>	(c) FPGA
+<p><a class="correct">	(d) ASIC
+</a><p></ul><p><p>28.	D³ugoœæ s³owa (word):
+<ul><p>	(a) jest pojêciem obecnie niewykorzystywanym
+<p>	(b) jest zawsze sta³a we wszystkich architekturach
+<p><a class="correct">	(c) mo¿e siê ró¿niæ w zale¿noœci od architektury (ISA)
+</a><p>	(d) definiuje siê j¹ na pocz¹tku programu w asemblerze
+<p></ul><p><p>29.	Co cechuje rejestry ogólnego przeznaczenia (GPR)?
+<ul><p>	(a) nie mo¿na siê do nich dostaæ z poziomu jêzyka asembler
+<p>	(b) znajduj¹ siê w ró¿nych miejsach systemu komputerowego
+<p><a class="correct">	(c) s¹ ma³ych rozmiarów i jest ich ma³o
+</a><p>	(d) z racji rozmiaru s¹ bardzo wolne
+<p></ul><p><p>30.	Która rodzina instrukcji NIE istnieje w MIPS?
+<ul><p>	(a) J-type (jump)
+<p>	(b) R-type (register)
+<p><a class="correct">	(c) S-type (secure)
+</a><p>	(d) I-type (immediate)
+<p></ul><p><p>31.	Jaka jest rola rejestru $ra w MIPS?
+<ul><p>	(a) zawiera wskazanie do bloku pamiêci liczb rzeczywistych (real adress)
+<p>	(b) nie ma go w MIPS, jest tylko w architekturach CISC
+<p><a class="correct">	(c) zawiera informacjê na temat adresu powrotu po wykonaniu instrukcji jal (return adress)
+</a><p>	(d) zawiera liczbê losow¹ do wykorzystania w kodzie (random adress)
+<p></ul><p><p>32.	Czym jest "endianness"?
+<ul><p><a class="correct">	(a) ustawieniem kolejnoœci bajtów w s³owie
+</a><p>	(b) wybieranym typem zakoñczenia programu
+<p>	(c) rodzajem architektury ISA (typu low-end lub high-end)
+<p>	(d) ustawieniem kolejnoœci bitów w bajcie
+<p></ul><p><p>33.	W $1 znajduje siê liczba 7, a w $2 liczba 42. Po wykonaniu instrukcji add $0, $1, $2 w $0 znajduje siê:
+<ul><p><a class="correct">	(a) 0
+</a><p>	(b) 3
+<p>	(c) 49
+<p>	(d) $0 siê nie zmieni, w $2 znajdzie siê 7
+<p></ul><p><p>34.	Która taksonomia nie istnieje?
+<ul><p>	(a) Flynna
+<p>	(b) Fenga
+<p>	(c) Handlera
+<p><a class="correct">	(d) Stanforda
+</a><p></ul><p><p>35.	Czemu stosuje siê hierarchiê pamiêci?
+<ul><p>	(a) nie stosuje siê
+<p>	(b) bo kiedyœ siê stosowa³o i tak zosta³o
+<p><a class="correct">	(c) bo jest krótsza droga
+</a><p>	(d) dla bezpieczeñstwa
+<p></ul><p><p>36.	Co charakteryzuje instrukcje R-type?
+<ul><p>	(a) dzia³aj¹ na pamiêci
+<p>	(b) dzia³aj¹ na wartoœciach bezpoœrednich
+<p>	(c) dzia³aja na rejestrze $pc
+<p><a class="correct">	(d) dzia³aj¹ na rejestrach
+</a><p><p><p><p><p><p><p><p><p><p><p></ul><p><p>37.	Co charakteryzuje instrukcje I-type?
+<ul><p>	(a) dzia³aj¹ na pamiêci
+<p><a class="correct">	(b) dzia³aj¹ na wartoœciach bezpoœrednich
+</a><p>	(c) dzia³aja na rejestrze $pc
+<p>	(d) dzia³aj¹ na rejestrach
+<p><p><p><p><p><p><p><p><p><p><p></ul><p><p>38.	Co charakteryzuje instrukcje J-type?
+<ul><p>	(a) dzia³aj¹ na pamiêci
+<p>	(b) dzia³aj¹ na wartoœciach bezpoœrednich
+<p><a class="correct">	(c) dzia³aja na rejestrze $pc
+</a><p>	(d) dzia³aj¹ na rejestrach
+<p><p><p><p><p><p><p><p><p><p><p></ul><p><p>39.	Jeœli wykonamy instrukcjê JAL, to gdzie zapisze siê adres nastêpnej instrukcji?
+<ul><p><a class="correct">	(a) w $ra
+</a><p>	(b) w $pc
+<p>	(c) nie ma takiej instrukcji
+<p>	(d) zapisuje siê tylko przy u¿yciu instrukcji J
+<p></ul><p><p>40.	Czym jest branch delay slot w MIPS?
+<ul><p><a class="correct">	(a) celowym wykonaniem kolejnej instrukcji po skoku aby minimalnie zaburzyæ proces potokowania (pipelining)
+</a><p>	(b) wielkoœci¹ opóŸnienia wynikaj¹c¹ z typu wykonywanej instrukcji
+<p>	(c) koniecznym do obliczenia rozmiarem ga³êzi w przypadku rozwidlenia programu (np. wskutek sprawdzania warunku)
+<p>	(d) skokiem do adresu zawartego w $ra w celu poprawnego wyjœcia z funkcji do miejsca gdzie by³a wywo³ana
+<p></ul><p><p>41.	Gdzie trzymany jest stos w MIPS?
+<ul><p><a class="correct">	(a) w pamiêci
+</a><p>	(b) w rejestrach
+<p>	(c) w osobnym akumulatorze
+<p>	(d) w MIPS nie ma stosu<p></ul><p><p>42.	Kod napisany w assemblerze:
+<ul><p>	(a) nie mo¿e byæ osadzany w jêzyku C
+<p>	(b) wykonywany jest bezpoœrednio w procesorze bez dodatkowej translacji do kodu maszynowego
+<p><a class="correct">	(c) na ogó³ dzia³a szybciej ni¿ napisany w jêzyku wysokiego poziomu
+</a><p>	(d) pozwala na osadzenie w nim kodu jêzyka C
+<p></ul><p><p>43.	Co oznacza zapis "comment:" w MIPS-ie?
+<ul><p>	(a) zapis jest niepoprawny
+<p>	(b) komentarz w kodzie
+<p><a class="correct">	(c) tworzy label o nazwie "comment", wskazuj¹cy na miejsce w pamiêci po dwukropku
+</a><p></ul><p><p>44.	W jaki sposób mo¿na zmieniæ ASIC do realizowania zupe³nie innej operacji?
+<ul><p>	(a) u¿ywaj¹c jêzyka VHDL
+<p><a class="correct">	(b) nie jest to mo¿liwe
+</a><p>	(c) zmieniaj¹c kod asemblera i ponownie go uruchamiaj¹c w ASIC
+<p>	(d) zmieniaj¹c wejœcia i wyjœcia ASIC
+<p></ul><p><p>45.	Jaki uk³ad zajmuje siê kontrol¹ operacji ALU?
+<ul><p><a class="correct">	(a) CU — Control Unit
+</a><p>	(b) GPU — Graphics Processing Unit
+<p>	(c) CPU — Central Processing unit
+<p>	(d) ALU jest niezale¿ne i nie potrzebuje kontroli
+<p></ul><p><p>46.	W jaki sposób mo¿na przenieœæ dane pomiedzy dwoma g³ównymi obszarami pamiêci w architekturze Harvarda?
+<ul><p>	(a) nale¿y u¿yæ szyny danych ³¹cz¹cej dwa obszary pamiêci
+<p>	(b) architektura robi to samodzielnie w celu zachowania redundancji
+<p>	(c) wystarczy u¿yæ odpowiednika instrukcji move dla danej architektury
+<p><a class="correct">	(d) nie jest to mo¿liwe
+</a><p></ul><p><p>47.	W jaki sposób przechowywane s¹ liczby rzeczywiste wedle standardu IEEE 754 na 32 bitach?
+<ul><p>	(a) 1 bit na znak, 15 bitów na czêœæ ca³kowit¹, 16 na czêœæ dziesiêtn¹
+<p>	(b) 1 bit na znak, 5 bitów na lokalizacjê separatora (kropki), 26 na zakodowanie liczby
+<p><a class="correct">	(c) 1 bit na znak, 8 bitów na wyk³adnik, 23 na mantysê
+</a><p>	(d) ten standard nie pozwala na kodowanie liczb rzeczywistych, tylko ca³kowitych
+<p></ul><p><p>48.	Jaka jest rola rejestru $f0 w MIPS?
+<ul><p>	(a) przechowuje zero, nie da siê zmieniæ jego wartoœci
+<p><a class="correct">	(b) przechowuje pierwsze 32 bity liczby rzeczywistej double precision lub ca³¹ liczbê rzeczywist¹ single precision
+</a><p>	(c) jest flag¹ ustawiona w przypadku dzielenia przez zero (wskazuje na b³¹d dzielenia)
+<p>	(d) taki rejestr w MIPS nie istnieje, w MIPS wystepuje tylko rejestr $0
+<p></ul><p><p>49.	Na co pozwala architektura MISD w taksonomii Flynna?
+<ul><p><a class="correct">	(a) wykrywanie b³êdow, gdy¿ te same instrukcje mog¹ byæ wykonywane na tych samych danych równolegle
+</a><p>	(b) na obliczanie zrównoleglone w klastrze
+<p>	(c) MISD jako najprostsza architektura wykonuje jedn¹ instrukcjê jednoczesnie na tych samych danych
+<p>	(d) MISD nie istnieje w taksonomii Flynna
+<p></ul><p><p>50.	Czy mo¿na uruchomiæ program napisany w jêzyku wysokiego poziomu (np. C++) stworzony dla architektury CISC na architekturze RISC?
+<ul><p>	(a) tak, ale tylko dla wybranych typów procesora CISC i RISC
+<p>	(b) nie
+<p><a class="correct">	(c) tak, ale wymaga to ponownej kompilacji i odpowiedniej wersji asemblera
+</a><p>	(d) tak
+<p></ul><p><p>51.	Czym jest architektura bi-endian?
+<ul><p>	(a) sposobem ustawienia bajtów w s³owie, w tym przypadku od najbardziej znacz¹cych do najmniej znacz¹cych
+<p><a class="correct">	(b) ta architektura pozwala pracowaæ zarówno w little-endian jak i big-endian
+</a><p>	(c) sposobem ustawienia bajtów w s³owie, w tym przypadku od najmniej znacz¹cych do najbardziej znacz¹cych
+<p>	(d) korekcj¹ b³êdów poprzez duplikowanie bitów na pocz¹tku i na koñcu ci¹gu danych
+<p></ul><p><p>52.	Co oznacza instrukcja pop dla MIPS?
+<ul><p>	(a) œci¹ga jedno slowo ze stosu
+<p><a class="correct">	(b) MIPS nie wspiera instrukcji pop
+</a><p>	(c) odk³ada jedno slowo na stos
+<p>	(d) oznacza pusty cykl procesora
+<p></ul><p><p>53.	Jakiego etapu NIE zawiera potokowanie RISC (pipelining)?
+<ul><p>	(a) instruction fetch IF
+<p><a class="correct">	(b) instruction cache IC
+</a><p>	(c) memory access MEM
+<p>	(d) execute EX
+<p></ul><p><p>54.	Dlaczego w instrukcjach R-Type wystarczy zakodowaæ rejestr na piêciu bitach?
+<ul><p>	(a) poniewa¿ u¿ywamy adresowania wzglêdnego
+<p>	(b) poniewa¿ u¿ywamy kodowania IEEE 754
+<p><a class="correct">	(c) poniewa¿ wystarcz¹ tylko 32 adresy
+</a><p>	(d) rejestr w intrukcjach R-type adresujemy na 32 a nie na piêciu bitach
+<p></ul><p><p>55.	Czym jest numeryczny kod maszynowy (numerical machine code)?
+<ul><p>	(a) kodem typu instrukcji (opcode)
+<p>	(b) zestawem instrukcji asemblera wspieranych przez dany procesor
+<p><a class="correct">	(c) skompilowanym kodem asemblera bezpoœrednio podawanym do procesora
+</a><p>	(d) unikatowym kodem danej architektury procesora (ISA)
+<p></ul><p><p>56.	Czym jest akumulator?
+<ul><p><a class="correct">	(a) specjalizowanym rejestrem procesora, w którym umieszczane s¹ wyniki operacji jednostki arytmetyczno-logicznej procesora
+</a><p>	(b) inn¹ nazw¹ stosu
+<p>	(c) licznikiem s³u¿¹cym do zliczania liczby iteracji pêtli
+<p>	(d) buforem danych w pamiêci RAM o szybkim dostêpie (na pocz¹tku adresacji)
+<p></ul><p><p>57.	Co umo¿liwia sprawne poruszanie sie po stosie MIPS, szczegolnie przy rekurencji?
+<ul><p><a class="correct">	(a) frame pointer ($fp)
+</a><p>	(b) stack bottom
+<p>	(c) stack limit
+<p>	(d) instrukcje $pop i $push
+<p></ul><p><p>58.	Co cechuje architekturê CISC?
+<ul><p><a class="correct">	(a) zmienna d³ugoœæ instrukcji
+</a><p>	(b) sta³a d³ugoœæ instrukcji
+<p>	(c) kazda instrukcja wykonuje siê dok³adnie jeden cykl zegara
+<p>	(d) load and store
+<p></ul><p><p>59.	Ile wartoœci mo¿na jednoczeœnie przekazaæ do rejestru z u¿yciem instrukcji addi w MIPS?
+<ul><p><a class="correct">	(a) jedn¹
+</a><p>	(b) dwie
+<p>	(c) trzy
+<p>	(d) górne ograniczenie to 32 wartosci
+<p></ul><p><p>60.	Jaka jest rola rejestru $sp?
+<ul><p>	(a) wskazuje na stack bottom
+<p><a class="correct">	(b) wskazuje na pocz¹tek stosu, poni¿ej niego (na wy¿szych adresach pamiêci) znajduj¹ siê dane stosu
+</a><p>	(c) jest to adres powrotu ustawiany przez instrukcjê jal
+<p>	(d) wskazuje na stack origin
+<p></ul><p><p>61.	Co oznacza direct mapping dla pamiêci cache?
+<ul><p><a class="correct">	(a) dane z danej komórki pamiêci mog¹ znaleŸæ siê tylko w jednym miejscu w cache
+</a><p>	(b) dane z danej komórki pamiêci mog¹ znaleŸæ siê w wielu miejscach w pamiêci cache
+<p>	(c) direct mapping nie dotyczy pamiêci cache
+<p>	(d) oznacza rozmiar 1:1 pamiêci cache i RAM
+<p></ul><p><p>62.	Ile komórek pamiêci mo¿na zaadresowaæ w architekturze 32-bitowej?
+<ul><p>	(a) 32 - 1 komórek
+<p><a class="correct">	(b) 2^(32) - 1 komórek
+</a><p>	(c) nie ma ograniczenia, gdy¿ mo¿na u¿ywaæ adresów wzglêdnych
+<p>	(d) 32^(32) - 1 komórek<p></ul><p><p>63.	Która architektura by³a projektowana z myœl¹ aby minimalizowaæ liczbê cykli zegara na instrukcjê?
+<ul><p>	(a) CISC
+<p><a class="correct">	(b) RISC
+</a><p>	(c) obie
+<p>	(d) ¿adna z powy¿szych<p></ul><p><p>64.	Jaka bêdzie wartoœæ rejestru $11 po zakoñczeniu wykonania kodu?
+<ul><p>	(a) 7
+<p><a class="correct">	(b) 8
+</a><p>	(c) 6
+<p>	(d) 11<p><p><p><p><p><p><p><p><p><p><p><p><p><p><p><p><p><p></ul><p><p>65.	Która z powy¿szych instrukcji jest pseudoinstrukcj¹?
+<ul><p>	(a) w linii 1
+<p><a class="correct">	(b) w linii 3
+</a><p>	(c) w linii 4
+<p>	(d) w linii 5<p><p><p><p><p><p><p><p><p><p><p><p><p><p><p><p><p><p></ul><p><p>66.	O ile bajtów zwiêkszy siê $pc po wykonaniu instrukcji 1?
+<ul><p>	(a) o jeden bajt
+<p><a class="correct">	(b) o cztery bajty
+</a><p>	(c) o dwa s³owa
+<p>	(d) o 16 bitów<p><p><p><p><p><p><p><p><p><p><p><p><p><p><p><p><p><p></ul><p><p>67.	Na co bêdzie wskazywa³ adres $ra po wykonaniu instrukcji w linii 4?
+<ul><p>	(a) na adres pamiêci wskazywany przez etykietê here
+<p>	(b) zwiêkszy siê o jedno s³owo
+<p>	(c) zwiêkszy siê o dwa s³owa
+<p><a class="correct">	(d) nie zmieni siê</a><p><p><p><p><p><p><p><p><p><p><p><p><p><p><p><p><p><p></ul><p><p>68.	Ile pamiêci bêdzie zajmowa³ powy¿szy kod w pamiêci?
+<ul><p><a class="correct">	(a) szeœæ s³ów
+</a><p>	(b) 64 bajty
+<p>	(c) 256 bajtów
+<p>	(d) siedem s³ów<p><p><p><p><p><p><p><p><p><p><p><p><p><p><p><p><p><p></ul><p><p>69.	Jaka bêdzie wartoœæ rejestru $9 po zakoñczeniu wykonania kodu?
+<ul><p>	(a) 7
+<p>	(b) 8
+<p>	(c) 6
+<p><a class="correct">	(d) 1</a><p><p><p><p><p><p><p><p><p><p><p><p><p><p><p><p><p><p></ul><p><p>70.	Ile pamiêci bêdzie zajmowa³ powy¿szy kod w pamiêci?
+<ul><p>	(a) szeœæ bajtów
+<p>	(b) 64 bajty
+<p>	(c) 256 bajtów
+<p><a class="correct">	(d) 24 bajty</a><p><p><p><p><p><p><p><p><p><p><p><p><p><p><p><p><p><p></ul><p><p>71.	W jaki sposób procesor wykonuje instrukcje w pamiêci komputera?
+<ul><p><a class="correct">	(a) sekwencyjnie komórka po komórce, chyba ¿e natrafi na instrukcje typu J-type
+</a><p>	(b) naprzemienne, tzn. czyta najpierw pierwsze osiem s³ów instrukcji, póŸniej osiem s³ów danych i tak dalej
+<p>	(c) w miejscu, tzn. czyta tylko jedn¹ komórkê pamiêci, a zadaniem programisty jest zadbaæ aby umieœciæ tam odpowiedni kod
+<p>	(d) ze wskazaniem, tzn. ka¿da instrukcja zawiera adres kolejnej instrukcji do wykonania<p></ul><p><p>72.	Czym jest hit rate w przypadku pamiêci cache?
+<ul><p><a class="correct">	(a) stosunkiem liczby ¿¹dañ do pamiêci znalezionych w cache do liczby wszystkich ¿¹dañ
+</a><p>	(b) szybkoœci¹ dostêpu do pamiêci cache
+<p>	(c) liczb¹ dostêpów do pamiêci
+<p>	(d) optymalnym rozmiarem pamiêci cache w stosunku do pamiêci RAM<p></ul><p><p>73.	Gdzie umiejscowiona jest pamiêæ cache w hierarchii pamiêci?
+<ul><p>	(a) najwy¿ej (najszybsza)
+<p><a class="correct">	(b) pomiêdzy rejestrami a pamiêci¹ RAM (wolniejsza od rejestrów, szybsza ni¿ RAM)
+</a><p>	(c) pod pamiêci¹ RAM (wolniejsza ni¿ RAM)
+<p>	(d) nie znajduje siê w ogóle w hierarchii pamiêci, bo jest osobnym typem dla danych<p></ul><p><p>74.	Czym jest przepe³nienie stosu?
+<ul><p><a class="correct">	(a) umieszczeniem poza stosem instrukcji lub danych nadpisuj¹c inne jej fragmenty
+</a><p>	(b) zaalokowaniem wiêkszej pamiêci ni¿ potrzebna na dane
+<p>	(c) przepe³nieniem bufora rejestrów
+<p>	(d) celowym dzia³aniem programisty optymalizuj¹cym dzia³anie programu<p></ul><p><p>75.	* Osadzanie kodu:
+<ul><p>	(a) mo¿na osadziæ kod w C w programie napisanym w asemblerze
+<p><a class="correct">	(b) mo¿na osadziæ kod w asemblerze w programie napisanym w C</a><p></ul><p><p>901.	Czy mozna "zlikwidowac" konflikty dostepu do pamieci polegajace na jednoczesnej probie pobrania rozkazu oraz dane?
+<ul><p>	(a) Ale przeciez takich konfliktow nie ma
+<p>	(b) Brak poprawnej odpowiedzi
+<p>	(c) Nie, nie jest to mozliwe
+<p><a class="correct">	(d) Tak, wystarczy zastosowac dwie niezalezne pamieci typu "cache"
+</a><p></ul><p><p>902.	Czy czynnosci przewidziane w fazie pobrania rozkazu zaleza od typu rozkazu?
+<ul><p>	(a) nie, w fazie pobrania rozkazu zawsze wykonywane sa takie same czynnosci, niezaleznie od typu rozkazu
+<p>	(b) tak, dla rozkazow adresowych niekiedy zachodzi dodatkowo potrzeba pobrania argumentu
+<p><a class="correct">	(c) tak, dla niektorych rozkazów konieczne jest dwukrotne przeprowadzenie deszyfracji
+</a><p>	(d) brak poprawnej odpowiedzi
+<p></ul><p><p>903.	Kiedy ma miejsce tzw. "migotanie stron"?
+<ul><p>	(a) to pojecie pochodzi z kardiologii
+<p><a class="correct">	(b) jesli stosowany algorytm wymiany stron usuwa z pamieci ostatnio uzywana strone
+</a><p>	(c) brak poprawnej odpowiedzi
+<p>	(d) tego nie da sie przewidziec
+<p></ul><p><p>904.	Co to jest "wektor przerwañ"?
+<ul><p>	(a) przykladowo: numer przerwania
+<p>	(b) jest to informacja umozliwiajaca identyfikacje przyczyn przerwania
+<p>	(c) przykladowo: adres programu obslugi przerwañ
+<p><a class="correct">	(d) kazda z powyzszych odpowiedzi jest (mo¿e byc) poprawna, zale¿y od typu procesora
+</a><p></ul><p><p>905.	Na czym polega metoda zwiekszania szybkosci sumatora nazywana metoda przeniesienia "jedynkowego i zerowego"
+<ul><p><a class="correct">	(a) jednoczesnie dla kazdego segmentu sumatora oblicza sie czy na jego wyjsciu pojawi siê przeniesienie (zerowe lub jedynkowe)
+</a><p>	(b) brak poprawnej odpowiedzi
+<p>	(c) wartosci wszystkich przeniesieñ sa obliczane jednoczesnie
+<p>	(d) nie ma takiej metody
+<p></ul><p><p>906.	Dlaczego czesciej stosuje sie organizacjê pamiêci typu 3D, a nie 2D?
+<ul><p>	(a) czesciej stosuje sie organizacjê typu 2D poniewaz ma mniejszy uklad adresujacy
+<p><a class="correct">	(b) poniewaz organizacja 3D ma "mniejszy" uklad adresujacy
+</a><p>	(c) nie ma takich organizacji pamieci
+<p>	(d) brak poprawnej odpowiedzi
+<p></ul><p><p>907.	Przy adresacji posredniej adres fizyczny jest wyliczany w nastepujacy sposob:
+<ul><p><a class="correct">	(a) pod adresem wskazywanym przez adres zawarty w rozkazie znajduje sie adres fizyczny
+</a><p>	(b) brak poprawnej odpowiedzi
+<p>	(c) adres jest suma adresu zawartego w rozkazie oraz adresu pobranego z tablicy stron
+<p>	(d) adres jest suma przesuniecia (nie wystepuje zawsze), bazy oraz adresu zawartego w rozkazie
+<p></ul><p><p>908.	Rozwaz nastepujac¹ instrukcje pêtli: realizowane przez 9 pierwszych przebiegow pêtli i pêtla siê koñczy (nie ma kolejnego przebiegu). Jaka jest skutecznosc przewidywania skoku, jesli uzywamy dwu-bitowego ukladu przewidywania skoków?
+<ul><p>	(a) 80%
+<p>	(b) 95%
+<p><a class="correct">	(c) 90%
+</a><p>	(d) brak poprawnej odpowiedzi
+<p></ul><p><p>909.	Po co stosowany jest bufor troj stanowy na styku szyn wewnetrznych i zewnetrznych?
+<ul><p>	(a) bufor troj stanowy nie jest stosowany
+<p>	(b) umozliwia przesylanie rozkazow do procesora
+<p>	(c) umozliwia realizacje przerwania
+<p><a class="correct">	(d) brak poprawnej odpowiedzi
+</a><p></ul><p><p>910.	Interfejs standardowy to:
+<ul><p>	(a) kabel lacz¹cy urz¹dzenie zewnetrzne z komputerem
+<p><a class="correct">	(b) standard lacznosci w systemie
+</a><p>	(c) urzadzenie umozliwiaj¹ce komunikacje uzytkownika z komputerem
+<p>	(d) polaczenie pomiedzy drukark¹ a komputerem
+<p></ul><p><p>911.	Rozwaz ponizszy fragment kodu: LD R3, Dana11; ADD R1, R3; SUB R3, Dana2; ST Wynik, R1; Pomiedzy instrukcjami ADD oraz SUB wystêpuje zale¿noœæ:
+<ul><p>	(a) wlasciwa
+<p>	(b) wyjsciowa
+<p>	(c) anty zaleznosc
+<p><a class="correct">	(d) brak poprawnej odpowiedzi
+</a><p></ul><p><p>912.	Zalozmy, ze zrealizowano pamiec wirtualna poprzez podzial pamieci na segmenty. Obliczaj¹c adres fizyczny komórki pamiêci musimy?
+<ul><p><a class="correct">	(a) dodac do siebie adres fizyczny segmentu z tablicy segmentow oraz przemieszczenie w segmencie zawarte w adresie wirtualnym
+</a><p>	(b) zestawic adres z adresu fizycznego segmentu pobranego z tablicy segmentow oraz z przemieszczenia w segmencie zawartego w adresie wirtualnym w taki sposób, ze adres segmentu stanowi starsze bity adres a przesuniecie w segmencie mlodsze bity.
+<p>	(c) dodac do siebie adres wirtualny oraz zawartosc wyroznionego rejestru
+<p>	(d) zadna z odpowiedzi nie jest poprawna
+<p></ul><p><p>913.	Kiedy stosujemy ogolne (globalne) maskowanie przerwañ?
+<ul><p>	(a) kiedy obslugiwane jest przerwanie o wysokim priorytecie
+<p><a class="correct">	(b) kiedy ma miejsce przelaczanie programow
+</a><p>	(c) nie wolno stosowac ogolnego maskowania
+<p>	(d) brak poprawnej odpowiedzi
+<p></ul><p><p>914.	Czy stosowany jest podzial segmentow na strony?
+<ul><p>	(a) nie stosuje sie takiej organizacji pamieci
+<p><a class="correct">	(b) tak, zalezy to od systemu operacyjnego
+</a><p>	(c) brak poprawnej odpowiedzi
+<p>	(d) tak jest zawsze
+<p></ul><p><p>915.	Dlaczego stosowany jest format "upakowany" dla liczb dziesietnych?
+<ul><p>	(a) jest to jedyny format dla reprezentacji liczb dziesietnych i jest po prostu wygodny
+<p><a class="correct">	(b) format upakowany jest stosowany ze wzgledu na oszczednosc pamiêci
+</a><p>	(c) format upakowany umozliwia realizacje operacji arytmetycznych na liczbach dziesietnych bez koniecznosci stosowania rozkazow korygujacych otrzymany wyniki (poprawek)
+<p>	(d) brak poprawnej odpowiedzi
+<p></ul><p><p>916.	Zalozmy, ze zrealizowano pamiec wirtualna poprzez podzial pamieci na strony. Obliczaj¹c adres fizyczny dowolnej komórki pamiêci musimy?
+<ul><p>	(a) Dodac do siebie adres fizyczny strony pobrany z tablicy stron oraz przemieszczenie na stronie zawarte w adresie wirtualnym
+<p><a class="correct">	(b) Zestawic adres adresu fizycznego strony pobranego z tablicy stron oraz z przemieszczenia na stronie zawartego w adresie wirtualnym w taki sposob, ze adres strony stanowi starsze bity adresu a przesuniecie na stronie mlodsze bity.
+</a><p>	(c) Dodac do siebie adres wirtualny oraz zawartosc wyroznionego rejestru
+<p>	(d) sadna z odpowiedzi nie jest poprawna
+<p></ul><p><p>917.	Jaki sposob adresacji moze wymagac wielokrotnego dostepu do pamieci?
+<ul><p>	(a) Adresacja wzgledna
+<p><a class="correct">	(b) Adresacja posrednia
+</a><p>	(c) Adresacja bezposrednia
+<p>	(d) Inna
+<p></ul><p><p>918.	Na czym polega przetwarzanie typu „pipe line" (potokowe)?
+<ul><p><a class="correct">	(a) Jedna z mozliwych realizacji polega na nalozeniu na siebie faz wykonania kolejnych rozkazow
+</a><p>	(b) W czasie wykonania jednego rozkazu pobierany jest kolejny rozkaz
+<p>	(c) Jednoczesnie z pamieci pobieranych jest kilka rozkazow do wykonania
+<p>	(d) Niezaleznie przebiega adresacja rozkazu oraz jego wykonanie
+<p></ul><p><p>919.	Zalozmy wielopoziomowy system przerwañ, kiedy mozliwe jest przejecie oraz obsluga przerwania podczas obs³ugi innego?
+<ul><p>	(a) jesli nowo zglaszane przerwanie ma wyzszy priorytet
+<p><a class="correct">	(b) jesli nowo zglaszane przerwanie ma wyzszy priorytet oraz zglaszanie przerwañ nie zosta³o „zamaskowane"
+</a><p>	(c) zawsze
+<p>	(d) brak poprawnej odpowiedzi
+<p></ul><p><p>920.	Czy mozliwa jest sytuacja, ze wszystkie rozkazy w jakims komputerze sa „0-adresowe" (nie maj¹ pola adresowego)?
+<ul><p>	(a) Tak, jest to mozliwe w przypadku gdy uzywamy stosu
+<p><a class="correct">	(b) Nie, nie jest to mozliwe, musimy miec co najmniej dwa rozkazy adresowe
+</a><p>	(c) Nie, nie jest to mozliwe, musimy miec co najmniej trzy rozkazy adresowe
+<p>	(d) Nie, nie jest to mozliwe, musimy miec co najmniej jeden rozkaz adresowy
+<p></ul><p><p>921.	Po co stosowany jest bufor troj stanowy na styku szyn wewnetrznych i zewnetrznych?
+<ul><p>	(a) Bufor troj stanowy nie jest stosowany
+<p><a class="correct">	(b) Zastosowanie bufora troj stanowego umozliwia realizacje bezposredniego dostepu do pamiêci przez urzadzenia zewnêtrzne
+</a><p>	(c) Umozliwia przesylanie rozkazow do procesora
+<p>	(d) umozliwia realizacje przerwania
+<p></ul><p><p>922.	Co to znaczy, ze adres do pamieci jest wyrownany (ang. aligned)?
+<ul><p>	(a) Adres jest wyrownany jesli rozmiar slowa wynosi 4 bajty
+<p><a class="correct">	(b) Adres jest wyrownany jesli adres slowa (obiektu) A o rozmiarze s bajtów spelnia nastepujacy warunek : A mod s = 0
+</a><p>	(c) Brak poprawnej odpowiedzi
+<p>	(d) Adres jest wyrownany jesli w sposób niezalezny mamy dostep do róznych bajtów pamieci
+<p></ul><p><p>923.	Porownujac architektury wykorzystuj¹ce staly rozmiar slowa rozkazowego z architekturami o zmiennym rozmiarze s³owa rozkazowego mozna stwierdzic, ze (ang. fixed & variable ebcoding):
+<ul><p>	(a) Dla zmiennego rozmiaru slowa rozkazowego programy sa zazwyczaj dluzsze
+<p><a class="correct">	(b) Dla stalego rozmiaru slowa rozkazowego programy sa zazwyczaj d³uzsze
+</a><p>	(c) Dlugosc programu dla obu opcji jest taki sam
+<p>	(d) Brak poprawnej odpowiedzi
+<p></ul><p><p>924.	Rozwaz ponizszy fragment kodu: LD R1, Dana24; ADD R1, Dana2; SUB R1, Dana42; ST Wynik, R1. Pomiedzy instrukcjami ADD oraz SUB wystêpuje zale¿noœæ:
+<ul><p>	(a) wlasciwa
+<p><a class="correct">	(b) wyjsciowa
+</a><p>	(c) anty zaleznosc
+<p>	(d) brak poprawnej odpowiedzis
+<p></ul><p><p>925.	Przy adresacji wzglednej adres fizyczny jest wyliczany w nastepujacy sposob
+<ul><p>	(a) Pod adresem wskazywanym przez adres zawarty w rozkazie znajduje sie adres fizyczny
+<p>	(b) Brak poprawnej odpowiedzi //ew by big_mac
+<p>	(c) Adres jest suma adresu zawartego w rozkazie oraz adresu pobranego z tablicy stron
+<p><a class="correct">	(d) Adres jest suma przesuniecia (nie wystepuje zawsze), bazy oraz adresu zawartego w rozkazie
+</a><p></ul><p><p>926.	Czy na podstawie zawartosci pamieci mozna odroznic rozkaz od danej?
+<ul><p>	(a) nie da sie odroznic rozkazu od danej, zarówno rozkaz jak i dana sa zapisane jako ci¹g zer i jedynek
+<p>	(b) Tak, rozkaz od danej musi byc rozrozniany, inaczej komputer nie móglby dzialac
+<p>	(c) Tak, dla rozkazow sa zarezerwowane pewne kombinacje zer i jedynek
+<p><a class="correct">	(d) brak poprawnej odpowiedzi (Nie da sie odroznic na podstawie zawartosci, ale da sie na podstawie pochodzenia jej adresu)
+</a><p></ul><p><p>927.	Konflikt dostepu do danych w przypadku architektur typu RISC polega na:
+<ul><p>	(a) kolejna wykonywana instrukcja zada dostepu do rejestru wykorzystywanego przez poprzedni¹
+<p>	(b) Brak poprawnej odpowiedzi
+<p>	(c) Kolejna wykonywana instrukcja zada dostepu do zajetego procesora
+<p><a class="correct">	(d) Kolejna wykonywana instrukcja zada dostepu do nie wyliczonej jeszcze przez poprzedzaj¹c¹ instrukcje wartosci
+</a><p></ul><p><p>928.	Kiedy ma miejsce tzw. „migotanie segmentow"
+<ul><p>	(a) To pojecie z kardiologii
+<p>	(b) Jesli stosowany algorytm wymiany segmentow usuwa z pamieci ostatnio uzywany segment
+<p><a class="correct">	(c) brak poprawnej odpowiedzi
+</a><p>	(d) Tego nie da sie przewidziec
+<p></ul><p><p>929.	Jesli jednoczesnie procesor oraz urzadzenie zewnetrzne z¹da dostepu do pamiêci, dostêp dostaje:
+<ul><p>	(a) procesor
+<p>	(b) urzadzenie zewnetrzne
+<p><a class="correct">	(c) nie ma tutaj obowiazuj¹cej reguly, raz dostep dostaje procesor raz urz¹dzenie zewnetrzne (odpowiada za to DMAC)
+</a><p>	(d) brak poprawnej odpowiedzi
+<p></ul><p><p>930.	Czy stosowany jest podzial stron na segmenty?
+<ul><p><a class="correct">	(a) nie stosuje sie takiej organizacji pamieci
+</a><p>	(b) tak, zalezy to od systemu operacyjnego
+<p>	(c) brak poprawnej odpowiedzi
+<p>	(d) tak, przeciez to tryb adresowania wirtualnego.
+<p></ul><p><p>931.	Ktora z metod rozbudowy pamieci jest praktyczniejsza?
+<ul><p>	(a) oczywiscie zwiekszenie liczby slow, poniewaz upraszcza sie adresowanie
+<p>	(b) zadna ze znanych metod nie ma "przewagi"
+<p><a class="correct">	(c) wydluzanie dlugosci s³owa, poniewaz nie powoduje komplikacji uk³adu adresujacego
+</a><p>	(d) brak poprawnej odpowiedzi
+<p></ul><p>
